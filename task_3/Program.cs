@@ -9,11 +9,11 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int test = number%2;
 
-if(test < 0 || test > 0)  
+if(test == 0)  
 {
-    Console.Write("нет");
+    Console.Write("да");
 }
 else
 {
-    Console.Write("да");
+    Console.Write("нет");
 }
