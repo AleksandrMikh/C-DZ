@@ -6,22 +6,22 @@
 
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-if(number < 100)
+if (number < 100)
 {
     Console.Write("третьей цифры нет");
 }
-else if(number > 999)
-   {
-    while(number > 999)
-    {       
-    number /= 10;
+else if (number > 999)
+{
+    while (number > 999)
+    {
+        number /= 10;
     }
-    int digitA = number%10;
+    int digitA = number % 10;
     Console.Write($"третья цифра: {digitA}");
-   }
-   else
-   {
-    int digit = number%10;
+}
+else
+{
+    int digit = number % 10;
     Console.Write($"третья цифра: {digit}");
-   }
+}
 
